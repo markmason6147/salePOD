@@ -1,0 +1,44 @@
+.Exq_ppd-form{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.Exq_ppd-form #exq_button{
+    background-color: transparent;
+    border: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 57px;
+    background-size: contain;
+}
+
+.Exq_ppd-form.Exq_ppd_else select, .Exq_ppd-form.Exq_ppd_else #amount.margin{width:50%; margin-left:7%}
+.Exq_ppd-form.Exq_ppd_else #amount.no-margin{width:50%;}
+
+.Exq_ppd-form h1{text-align: center;}
+
+.Exq_ppd-form .image-1{background-image: url(""); width:91px}
+.Exq_ppd-form .image-2{background-image: url(""); width:142px}
+.Exq_ppd-form .image-3{background-image: url(""); width:147px}
+
+.Exq_ppd_widgit{
+    margin:10px;
+
+}
+
+.Exq_ppd_else{
+    width:450px;
+    margin: 40px auto 20px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .Exq_ppd_else{
+        width:100%;
+
+    }
+
+}
